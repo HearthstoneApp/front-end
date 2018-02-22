@@ -5,7 +5,7 @@ import { AppContainer } from 'react-hot-loader';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/App';
+import App from './components/app';
 
 function render(Component) {
   ReactDOM.render(
@@ -19,9 +19,9 @@ function render(Component) {
 render(App);
 
 if (module.hot) {
-  module.hot.accept('./components/App', () => {
+  module.hot.accept('./components/app', () => {
     // eslint-disable-next-line
-    const NextApp = require('./components/App').default;
+    const NextApp = require('./components/app').default;
     render(NextApp);
   });
 }
