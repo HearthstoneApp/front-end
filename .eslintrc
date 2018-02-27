@@ -33,6 +33,7 @@
     "no-else-return": 0,
     "arrow-body-style": 0,
     "no-use-before-define": 0,
+    "object-curly-newline": 0,
     "space-before-function-paren": [
       2,
       {

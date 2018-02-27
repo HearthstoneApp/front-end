@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from '../nav_bar';
 import Search from '../../containers/search';
+import Preview from '../../containers/preview';
 
 export default class App extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class App extends Component {
       <div>
         <NavBar />
         <Search />
+        <Preview />
       </div>
     );
   }
