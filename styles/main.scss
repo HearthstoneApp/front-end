@@ -1,0 +1,11 @@
+body {
+  display: grid;
+  background-color: $background;
+}
+
+.panel {
+  background-color: $backgroundSecondary;
+  color: $textColor;
+  border-radius: 3px;
+  box-shadow: 1px 1px 8px #000!important;
+}

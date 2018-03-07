@@ -1,8 +1,7 @@
 import { connect } from 'react-redux';
 import PreviewPane from '../../components/preview_pane';
 
-function mapStateToProps(state) {
-  console.log(state);
+function mapStateToProps({ cards }) {
   return {
     cards
   };
