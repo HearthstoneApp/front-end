@@ -8,8 +8,11 @@ export default function SearchPane({
   filterSetQuery
 }) {
   return (
-    <div className="panel">
-      <div className="panel-heading">Search</div>
+    <div className="search-card card">
+      <div className="panel-heading">
+        <h1>Search</h1>
+        <hr />
+      </div>
       <div className="input-label">Name:</div>
       <InputMenu
         placeholder="Card Name"

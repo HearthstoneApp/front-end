@@ -6,7 +6,11 @@ export default function PreviewPane({ cards }) {
   }
 
   return (
-    <div className="pane">
+    <div className="preview-card card">
+      <div className="panel-heading">
+        <h1>Preview</h1>
+        <hr />
+      </div>
       <ul>
         {getCardList()}
       </ul>
