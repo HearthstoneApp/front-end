@@ -13,4 +13,3 @@ export function filterSet(filterSetQuery) {
     filterSetQuery
   };
 }
-

@@ -7,11 +7,13 @@ import Details from '../../containers/details';
 export default class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <NavBar />
-        <Search />
-        <Preview />
-        <Details />
+        <div className="container">
+          <Search />
+          <Preview />
+          <Details />
+        </div>
       </div>
     );
   }
